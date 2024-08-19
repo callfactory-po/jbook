@@ -1,10 +1,17 @@
 {
   "name": "@jsnote-po/local-api",
   "version": "1.0.0",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "start": "tsc --watch --declaration --preserveWatchOutput"
+    "start": "tsc --watch --declaration --preserveWatchOutput",
+    "prepublishOnly": "tsc" 
   },
   "keywords": [],
   "author": "",
