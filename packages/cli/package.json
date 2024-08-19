@@ -1,6 +1,6 @@
 {
   "name": "jsnote-po",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "bin": "dist/index.js",
   "publishConfig": {
     "access": "public"
@@ -17,10 +17,10 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "@jsnote-po/local-client": "^1.0.1"
+    "@jsnote-po/local-client": "^1.0.2"
   },
   "devDependencies": {
-    "@jsnote-po/local-api": "^1.0.1",
+    "@jsnote-po/local-api": "^1.0.2",
     "@types/node": "^22.3.0",
     "commander": "^12.1.0",
     "esbuild": "0.8.26",
