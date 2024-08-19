@@ -1,6 +1,6 @@
 {
   "name": "@jsnote-po/local-api",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "files": [
     "dist"
   ],
@@ -23,7 +23,7 @@
     "typescript": "^5.5.4"
   },
   "dependencies": {
-    "@jsnote-po/local-client": "^1.0.0",
+    "@jsnote-po/local-client": "^1.0.1",
     "cors": "^2.8.5",
     "express": "^4.19.2",
     "http-proxy-middleware": "2.0.6"
